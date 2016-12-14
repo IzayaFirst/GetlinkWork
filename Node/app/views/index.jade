@@ -1,0 +1,20 @@
+HTML
+  head
+    title getLink Node
+    link(href='/css/materialize.min.css' , rel='stylesheet')
+  body
+    .container
+      h3 Search Subscriber from git
+        form(name='search' , method='post' , action='search')
+          input(type='text' , name='key')
+          input(type='submit' , value='Login')
+      if data!=null
+        table
+          each d in data
+            tr
+              td
+                img(src= d.avatar_url width='50' height='50')
+              td
+                p= d.login
+              td
+                a(href= d.url)= d.url

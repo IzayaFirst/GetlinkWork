@@ -1,0 +1,59 @@
+.navbar{
+  margin-bottom: 0px;
+}
+  .head-logo{
+    padding-top: 15px;
+  }
+  .head-logo a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  body{
+    background: #e9ebee;
+  }
+.header-image {
+margin-top: 0px;
+display: block;
+width: 100%;
+height: 500px;
+text-align: center;
+background: url('img/bg.jpg') no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+.port{
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.headline {
+padding: 120px 0;
+}
+.text-center {
+    text-align: center;
+}
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2C3E50;
+    color: white;
+}
+.headline h1 {
+font-size: 70px;
+
+}
+
+.headline h2 {
+font-size: 30px;
+}
+
+.portlet.light {
+    padding: 12px 20px 15px 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.new-row{
+  margin-top: 15px;
+}
